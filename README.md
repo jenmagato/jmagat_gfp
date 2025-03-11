@@ -58,16 +58,16 @@ Make sure you have PHP and Composer installed on your system to run the Laravel 
     GITHUB_PERSONAL_TOKEN="your_personal_token_here"
     ```
 
-4. Set up Application Key (not used since only the API was used)
-    Generate a new application key. This will set the APP_KEY in your .env file:
+4. Set up Application Key (not used since only the API was used -- can be skipped)
+   Generate a new application key. This will set the APP_KEY in your .env file:
     ```bash
     php artisan key:generate
     ```
-5. Set up Database (not used since only the API was used)
+6. Set up Database (not used since only the API was used -- can be skipped)
     ```bash
     php artisan migrate
     ```
-6. Start the Laravel development server:
+7. Start the Laravel development server:
     ```bash
     php artisan serve
     ```
