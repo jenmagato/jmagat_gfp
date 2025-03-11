@@ -33,7 +33,7 @@ Make sure you have PHP and Composer installed on your system to run the Laravel 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/jenmagato/jmagat_gfp.git
+    git clone https://github.com/jenmagato/jmagat_gfp.git jmagat_gfp 
     cd jmagat_gfp
     ```
 
