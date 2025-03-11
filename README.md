@@ -33,8 +33,8 @@ Make sure you have PHP and Composer installed on your system to run the Laravel 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/jenmagato/gfp.git
-    cd gfp
+    git clone https://github.com/jenmagato/jmagat_gfp.git
+    cd jmagat_gfp
     ```
 
 2. Install PHP dependencies using Composer:
