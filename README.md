@@ -37,11 +37,7 @@ Make sure you have PHP and Composer installed on your system to run the Laravel 
     cd gfp
     ```
 
-2. Create cache folder for laravel
-    ```bash
-    mkdir -p bootstrap/cache
-    ```
-3. Install PHP dependencies using Composer:
+2. Install PHP dependencies using Composer:
     ```bash
     composer install
     ```
