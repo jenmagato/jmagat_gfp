@@ -7,7 +7,7 @@ This project involves both a **Laravel** backend and a **React** frontend. Below
 ## Prerequisites
 
 -   **Node.js** (for React)
--   **npm** (for React)
+-   **npm or yarn** (for React)
 -   **Composer** (for Laravel)
 -   **PHP** (for Laravel)
 -   **GitHub Personal Access Token** (for interacting with GitHub repositories)
