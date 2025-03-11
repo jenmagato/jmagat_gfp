@@ -41,7 +41,7 @@ Make sure you have PHP and Composer installed on your system to run the Laravel 
     ```bash
     composer install
     ```
-4. Set up the environment variables by copying the .env.example to .env:
+3. Set up the environment variables by copying the .env.example to .env:
 
     ```bash
     cp .env.example .env
@@ -58,7 +58,16 @@ Make sure you have PHP and Composer installed on your system to run the Laravel 
     GITHUB_PERSONAL_TOKEN="your_personal_token_here"
     ```
 
-5. Start the Laravel development server:
+4. Set up Application Key (not used since only the API was used)
+    Generate a new application key. This will set the APP_KEY in your .env file:
+    ```bash
+    php artisan key:generate
+    ```
+5. Set up Database (not used since only the API was used)
+    ```bash
+    php artisan migrate
+    ```
+6. Start the Laravel development server:
     ```bash
     php artisan serve
     ```
