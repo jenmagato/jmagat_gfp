@@ -83,19 +83,21 @@ Make sure you have Node.js and npm installed on your system to run the React app
 
 ### Steps to Set Up and Run the React App
 
-1. Navigate to the React app directory (usually under the frontend or client folder):
+1. Open new terminal / bash
+   
+2. Navigate to the React app directory (usually under the frontend or client folder):
     ```bash
     cd reactui
     ```
-2. Install dependencies using npm:
+3. Install dependencies using npm:
     ```bash
     npm install
     ```
-3. Start the React development server:
+4. Start the React development server:
     ```bash
     npm start
     ```
-4. The React app will be available at http://localhost:3000.
+5. The React app will be available at http://localhost:3000.
 
 ## Troubleshooting
 
